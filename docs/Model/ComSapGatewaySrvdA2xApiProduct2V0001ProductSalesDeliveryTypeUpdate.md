@@ -1,0 +1,48 @@
+# # ComSapGatewaySrvdA2xApiProduct2V0001ProductSalesDeliveryTypeUpdate
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**minimum_order_quantity** | [**\BeLenka\SAP\ProductODV4\Model\MinimumOrderQty**](MinimumOrderQty.md) |  | [optional]
+**supplying_plant** | **string** |  | [optional]
+**price_specification_product_group** | **string** | Product Pricing Group | [optional]
+**account_detn_product_group** | **string** | Account Assignment Group for Material | [optional]
+**delivery_note_proc_min_deliv_qty** | [**\BeLenka\SAP\ProductODV4\Model\MinimumDeliveryQty**](MinimumDeliveryQty.md) |  | [optional]
+**item_category_group** | **string** | Item Category Group from Material Master | [optional]
+**delivery_quantity_unit** | **string** | Unit Of Measure Of Delivery Unit | [optional]
+**delivery_quantity_iso_unit** | **string** | ISO Code for Unit of Measurement | [optional]
+**delivery_quantity** | [**\BeLenka\SAP\ProductODV4\Model\DeliveryUnit**](DeliveryUnit.md) |  | [optional]
+**product_sales_status** | **string** | Distribution-chain-specific material status | [optional]
+**product_sales_status_validity_date** | **\DateTime** | Date from which distr.-chain-spec. material status is valid | [optional]
+**sales_measure_unit** | **string** | Base Unit of Measure - No Conversion Routine | [optional]
+**sales_measure_iso_unit** | **string** | ISO Code for Unit of Measurement | [optional]
+**is_marked_for_deletion** | **bool** | Ind.: Flag material for deletion at distribution chain level | [optional]
+**first_sales_spec_product_group** | **string** |  | [optional]
+**second_sales_spec_product_group** | **string** |  | [optional]
+**third_sales_spec_product_group** | **string** |  | [optional]
+**fourth_sales_spec_product_group** | **string** |  | [optional]
+**fifth_sales_spec_product_group** | **string** |  | [optional]
+**logistics_statistics_group** | **string** | Material statistics group | [optional]
+**volume_rebate_group** | **string** | Volume rebate group | [optional]
+**cash_discount_is_deductible** | **bool** | Cash Discount Indicator | [optional]
+**rounding_profile** | **string** |  | [optional]
+**variable_sales_unit_is_not_allowed** | **bool** | Variable Sales Unit Not Allowed | [optional]
+**product_commission_group** | **string** |  | [optional]
+**pricing_reference_product** | **string** | Pricing Reference Material | [optional]
+**product_has_attribute_id01** | **bool** | ID for product attribute 1 | [optional]
+**product_has_attribute_id02** | **bool** | ID for product attribute 2 | [optional]
+**product_has_attribute_id03** | **bool** | ID for product attribute 3 | [optional]
+**product_has_attribute_id04** | **bool** | ID for product attribute 4 | [optional]
+**product_has_attribute_id05** | **bool** | ID for product attribute 5 | [optional]
+**product_has_attribute_id06** | **bool** | ID for product attribute 6 | [optional]
+**product_has_attribute_id07** | **bool** | ID for product attribute 7 | [optional]
+**product_has_attribute_id08** | **bool** | ID for product attribute 8 | [optional]
+**product_has_attribute_id09** | **bool** | ID for product attribute 9 | [optional]
+**product_has_attribute_id10** | **bool** | ID for product attribute 10 | [optional]
+**prod_is_entlmnt_rlvt** | **bool** | Relevant for Entitlement Generation | [optional]
+**base_unit** | **string** |  | [optional]
+**base_iso_unit** | **string** | ISO Code for Unit of Measurement | [optional]
+**sap__messages** | [**\BeLenka\SAP\ProductODV4\Model\ComSapGatewaySrvdA2xApiProduct2V0001SAPMessageUpdate[]**](ComSapGatewaySrvdA2xApiProduct2V0001SAPMessageUpdate.md) |  | [optional]
+
+[[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)

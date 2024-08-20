@@ -1,0 +1,39 @@
+{
+    "name": "be-lenka/sap_product-odv4",
+    "description": "The service supports following operations: GET, POST, PUT, PATCH, DELETE. You can create, read, update, and delete product master data at the entity level.",
+    "keywords": [
+        "openapitools",
+        "openapi-generator",
+        "openapi",
+        "php",
+        "sdk",
+        "rest",
+        "api"
+    ],
+    "homepage": "https://openapi-generator.tech",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "BeLenka Dev",
+            "homepage": "https://www.belenka.com"
+        }
+    ],
+    "require": {
+"php": ">=7.3",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+"guzzlehttp/guzzle": "^6.2 || ^7.0"
+ 
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0 || ^9.0",
+        "friendsofphp/php-cs-fixer": "^3.5"
+    },
+    "autoload": {
+        "psr-4": { "BeLenka\\SAP\\ProductODV4\\" : "lib/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "BeLenka\\SAP\\ProductODV4\\Test\\" : "test/" }
+    }
+}
